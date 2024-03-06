@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Return"
+    android:background="@color/background">
+
+    <ImageButton
+        android:id="@+id/button"
+        android:layout_width="@dimen/Return_ButtonWidth"
+        android:layout_height="@dimen/Return_ButtonHeight"
+        android:layout_marginStart="@dimen/Return_StartButton"
+        android:layout_marginTop="@dimen/yaxis_ReturnButton"
+        android:background="@drawable/graphic_button"
+        android:foregroundGravity="center"
+        app:srcCompat="@android:drawable/ic_popup_sync"
+        tools:ignore="DuplicateIds" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/button"
+        android:layout_alignEnd="@+id/button"
+        android:layout_marginStart="@dimen/Start_TextReturn"
+        android:layout_marginTop="@dimen/yaxis_TextReturn"
+        android:layout_marginEnd="@dimen/End_TextReturn"
+        android:gravity="center"
+        android:text="@string/LabelReturn"
+        android:textColor="@color/text"
+        android:textSize="@dimen/text_return" />
+</RelativeLayout>

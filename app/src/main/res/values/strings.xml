@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">تسبيحات الزهراء</string>
+    <string name="Akber">الله أكبر</string>
+    <string name="Alhamd">الحمد لله</string>
+    <string name="Sphan">سبحان الله</string>
+    <string name="LabelReturn">اعادة التسبيح</string>
+    <string name="key">key</string>
+    <string name="finish">تقبل الله أعمالكم</string>
+</resources>

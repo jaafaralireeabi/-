@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--text-->
+    <dimen name="text">55dp</dimen>
+    <dimen name="StartText">120dp</dimen>
+    <dimen name="yaxis_text">50dp</dimen>
+    <dimen name="text_return">40dp</dimen>
+    <dimen name="Start_TextReturn">2dp</dimen>
+    <dimen name="End_TextReturn">-4dp</dimen>
+    <dimen name="yaxis_TextReturn">250dp</dimen>
+    <!--button-->
+    <dimen name="ButtonWidth">300dp</dimen>
+    <dimen name="ButtonHeight">300dp</dimen>
+    <dimen name="StartButton">50dp</dimen>
+    <dimen name="yaxis_Button">278dp</dimen>
+    <!--button return-->
+    <dimen name="Return_ButtonWidth">200dp</dimen>
+    <dimen name="Return_ButtonHeight">200dp</dimen>
+    <dimen name="Return_StartButton">100dp</dimen>
+    <dimen name="yaxis_ReturnButton">300dp</dimen>
+    <!--number-->
+    <dimen name="StartNumber">190dp</dimen>
+    <dimen name="EndNumber">100dp</dimen>
+</resources>
